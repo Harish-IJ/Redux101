@@ -1,0 +1,11 @@
+@use './variables';
+@use './mixins';
+@use './reset';
+
+
+body {
+  background-color: variables.$background;
+  color: variables.$foreground;
+  font-family: variables.$font-base;
+  font-size: variables.$font-size-base;
+}
